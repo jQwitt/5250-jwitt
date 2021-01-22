@@ -31,6 +31,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
+<<<<<<< HEAD
+=======
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+>>>>>>> a767870ab4a170358b409fb140e1970d347a9c69
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
