@@ -16,17 +16,31 @@ namespace Mine.Views
     {
         public ItemModel Item { get; set; }
 
-        /* <summary>
-         * Constructor that takes a viewModel
-         * </summary>
-         * <param name="viewModel"></param>
-         */
         public ItemUpdatePage(ItemReadViewModel viewModel)
         {
             InitializeComponent();
             Item = viewModel.Item;
 
             BindingContext = this;
+        }
+
+        async void Update_Clicked(object sender, EventArgs e)
+        {
+            MessagingCenter.Send(this, "UpdateItem", Item);
+            await Navigation.PopModalAsync();
+        }
+
+        async void Cancel_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
+        }
+
+        /*
+         * Update the Display Value when Stepper Changes
+         */
+        void Value_OnStepperValueChange(object sender, ValueChangedEventArgs e)
+        {
+            ValueValue.Text = String.Format("{0}", e.NewValue);
         }
     }
 }
