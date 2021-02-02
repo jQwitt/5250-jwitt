@@ -59,7 +59,7 @@ namespace Mine.Services
         /* <summary>
         * Updates an item in the database, returns true if successful 
         * </summary>
-        * <param name="forceRefresh"></param
+        * <param name="item">the item to be updated</param
         */
         public async Task<bool> UpdateAsync(ItemModel item)
         {
@@ -77,9 +77,26 @@ namespace Mine.Services
             return true;
         }
 
-        public Task<bool> DeleteAsync(string id)
+        /* <summary>
+         * Deletes an item from the database
+         * </summary>
+         * <param name="item">the item to be deleted</param
+         */
+        public async Task<bool> DeleteAsync(string id)
         {
-            throw new NotImplementedException();
+            var data = await ReadAsync(id);
+            if (data == null)
+            {
+                return false;
+            }
+
+            var result = await Database.DeleteAsync(data);
+            if (result == 0)
+            {
+                return false;
+            }
+
+            return true;
         }
 
         /* <summary>
