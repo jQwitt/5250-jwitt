@@ -13,7 +13,12 @@ namespace Mine
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
+            /*
+             * DatabaseService - our production database service using SQLite
+             * MockDataStore - mocked functionality of the database service for testing
+             */ 
+            // DependencyService.Register<MockDataStore>();
+            DependencyService.Register<DatabaseService>();
             MainPage = new MainPage();
         }
 
