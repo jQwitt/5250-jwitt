@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Mine
 {
-    public static class Contstants
+    public static class Constants
     {
         public const string DatabaseFilename = "TodoSQLite.db3";
 
