@@ -47,5 +47,18 @@ namespace UnitTests.Models
             Assert.AreEqual(-1, result.Value);
         }
 
+        [Test]
+        public void ItemModel_Get_Valid_Default_Expect_Pass()
+        {
+            // Arrange
+
+            // Act
+            var result = new ItemModel();
+
+            // Reset
+
+            // Assert
+            Assert.AreEqual(0, result.Value);
+        }
     }
 }
