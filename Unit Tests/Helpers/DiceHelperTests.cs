@@ -72,12 +72,12 @@ namespace Unit_Tests.Helpers
         }
 
         [Test]
-        public void RollDice_Invalid_Roll_0_Dice_Expect_0()
+        public void RollDice_Invalid_Roll_0_Dice_10_Expect_0()
         {
             // Arrange
 
             // Act
-            var result = DiceHelper.RollDice(1, 0);
+            var result = DiceHelper.RollDice(0, 10);
 
             // Reset
 
