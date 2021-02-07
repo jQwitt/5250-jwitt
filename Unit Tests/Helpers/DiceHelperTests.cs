@@ -55,5 +55,19 @@ namespace Unit_Tests.Helpers
             // Assert
             Assert.AreEqual(1, result);
         }
+
+        [Test]
+        public void RollDice_Invalid_Roll_0_Dice_Expect_0()
+        {
+            // Arrange
+
+            // Act
+            var result = DiceHelper.RollDice(1, 0);
+
+            // Reset
+
+            // Assert
+            Assert.AreEqual(0, result);
+        }
     }
 }
