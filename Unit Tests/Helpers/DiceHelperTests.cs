@@ -91,7 +91,7 @@ namespace Unit_Tests.Helpers
             // Arrange
 
             // Act
-            var result = DiceHelper.RollDice(0, 1);
+            var result = DiceHelper.RollDice(1, 0);
 
             // Reset
 
