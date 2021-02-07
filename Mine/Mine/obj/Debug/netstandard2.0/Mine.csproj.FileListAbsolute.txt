@@ -2,7 +2,6 @@ C:\Users\Jack Witt\Desktop\MobileDev\5250-jwitt\Mine\Mine\bin\Debug\netstandard2
 C:\Users\Jack Witt\Desktop\MobileDev\5250-jwitt\Mine\Mine\bin\Debug\netstandard2.0\Mine.dll
 C:\Users\Jack Witt\Desktop\MobileDev\5250-jwitt\Mine\Mine\bin\Debug\netstandard2.0\ref\Mine.dll
 C:\Users\Jack Witt\Desktop\MobileDev\5250-jwitt\Mine\Mine\bin\Debug\netstandard2.0\Mine.pdb
-C:\Users\Jack Witt\Desktop\MobileDev\5250-jwitt\Mine\Mine\obj\Debug\netstandard2.0\Mine.csprojAssemblyReference.cache
 C:\Users\Jack Witt\Desktop\MobileDev\5250-jwitt\Mine\Mine\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Jack Witt\Desktop\MobileDev\5250-jwitt\Mine\Mine\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
 C:\Users\Jack Witt\Desktop\MobileDev\5250-jwitt\Mine\Mine\obj\Debug\netstandard2.0\Views\Game\GamePage.xaml.g.cs
