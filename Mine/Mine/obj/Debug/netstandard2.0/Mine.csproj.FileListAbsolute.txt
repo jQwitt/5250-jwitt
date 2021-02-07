@@ -19,4 +19,3 @@ C:\Users\Jack Witt\Desktop\MobileDev\5250-jwitt\Mine\Mine\obj\Debug\netstandard2
 C:\Users\Jack Witt\Desktop\MobileDev\5250-jwitt\Mine\Mine\obj\Debug\netstandard2.0\Mine.dll
 C:\Users\Jack Witt\Desktop\MobileDev\5250-jwitt\Mine\Mine\obj\Debug\netstandard2.0\ref\Mine.dll
 C:\Users\Jack Witt\Desktop\MobileDev\5250-jwitt\Mine\Mine\obj\Debug\netstandard2.0\Mine.pdb
-C:\Users\Jack Witt\Desktop\MobileDev\5250-jwitt\Mine\Mine\obj\Debug\netstandard2.0\Mine.csprojAssemblyReference.cache
