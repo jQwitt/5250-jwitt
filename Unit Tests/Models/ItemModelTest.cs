@@ -25,5 +25,27 @@ namespace UnitTests.Models
             Assert.IsNotNull(result);
         }
 
+        [Test]
+        public void ItemModel_Set_Get_Valid_Default_Expect_Pass()
+        {
+            // Arrange
+
+            // Act
+            var result = new ItemModel();
+            result.Description = "Description";
+            result.Id = "ID";
+            result.Text = "Text";
+            result.Value = -1;
+
+
+            // Reset
+
+            // Assert
+            Assert.AreEqual("Description", result.Description);
+            Assert.AreEqual("ID", result.Id);
+            Assert.AreEqual("Text", result.Text);
+            Assert.AreEqual(-1, result.Value);
+        }
+
     }
 }
